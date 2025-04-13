@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Profile from './src/assets/Abhilash passoprt.png';
 
 export default function App() {
   const [hobbies, setHobbies] = useState(["Reading", "Hiking", "Playing guitar"]);
@@ -19,7 +20,7 @@ export default function App() {
     <div className="min-h-screen flex items-center justify-center bg-orange-50 p-4">
       <div className="bg-white p-6 rounded-2xl shadow-lg max-w-sm w-full text-center">
         <img
-          src="./src/assets/Abhilash passport.png"
+          src={Profile}
           alt="Profile"
           className="w-24 h-24 mx-auto rounded-full mb-4"
         />
