@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Profile from './src/assets/Abhilash passoprt.png';
+import Profile from './assets/Abhilash passport.png';
 
 export default function App() {
   const [hobbies, setHobbies] = useState(["Reading", "Hiking", "Playing guitar"]);
